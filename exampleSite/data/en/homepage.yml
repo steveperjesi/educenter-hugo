@@ -4,27 +4,24 @@ slider:
   bg_image: images/banner/banner-1.jpg
   slider_item:
   - title: Your insurance adjusting needs in one place
-    content: ''
+    content: Organize claims, files, and more.
     animation_in: left
     animation_out: right
     button:
       enable: true
       label: Learn More
       link: contact
-  - title: Your bright future is our mission
-    content: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-      tempor incididunt ut labore et magna aliqua. Ut enim ad minim veniam, quis nostrud
-      exer
+  - title: Your insurance adjusting needs in one place
+    content: Quickly find contractors and consultants for any area in the U.S.
     animation_in: left
     animation_out: right
     button:
       enable: true
       label: Apply now
       link: contact
-  - title: Your bright future is our mission
-    content: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-      tempor incididunt ut labore et magna aliqua. Ut enim ad minim veniam, quis nostrud
-      exer
+  - title: Your insurance adjusting needs in one place
+    content: Receive notices before licenses expire, bonds lapse, policies mature,
+      and more.
     animation_in: left
     animation_out: right
     button:
@@ -32,7 +29,7 @@ slider:
       label: Apply now
       link: contact
 banner_feature:
-  enable: true
+  enable: false
   image: images/banner/banner-feature.png
   feature_item:
   - name: Scholorship News
@@ -52,7 +49,7 @@ banner_feature:
     content: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
       tempor incididunt ut labore  dolore magna aliqua. Ut enim ad
 about:
-  enable: true
+  enable: false
   title: About Educenter
   image: images/about/about-us.jpg
   content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
@@ -67,7 +64,7 @@ about:
     label: Learn more
     link: about
 course:
-  enable: true
+  enable: false
   title: Our Course
 cta:
   enable: true
@@ -87,10 +84,10 @@ success_story:
     ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
   video_link: https://www.youtube.com/watch?v=ResipmZmpDU
 event:
-  enable: true
+  enable: false
   title: Upcoming Events
 funfacts:
-  enable: true
+  enable: false
   funfact_item:
   - name: TEACHERS
     count: "60"
@@ -101,5 +98,5 @@ funfacts:
   - name: SATISFIED CLIENT
     count: "1400"
 blog:
-  enable: true
+  enable: false
   title: Latest News
