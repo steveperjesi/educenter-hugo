@@ -4,13 +4,6 @@ auto_deploy: false
 admin_path: ''
 webhook_url: 
 sections:
-- type: directory
-  path: exampleSite/content/english/features
-  label: Features (en)
-  create: all
-  match: "**/*"
-  templates:
-  - research
 - type: heading
   label: Blog Post
 - type: directory
@@ -46,19 +39,19 @@ sections:
 - type: heading
   label: Course
 - type: directory
-  path: exampleSite/content/english/course
+  path: exampleSite/content/english/features
   label: Course (en)
   create: documents
   match: "**/*"
   templates:
-  - course
+  - features
 - type: directory
-  path: exampleSite/content/french/course
+  path: exampleSite/content/french/features
   label: Course (fr)
   create: documents
   match: "**/*"
   templates:
-  - course
+  - features
 - type: heading
   label: Notice
 - type: directory
@@ -162,15 +155,15 @@ sections:
   create: none
   match: "*"
 - type: directory
-  path: exampleSite/content/english/pages
-  label: Created Pages (en)
+  path: exampleSite/content/english/features
+  label: Feautures (en)
   create: documents
   match: "**/*"
   templates:
   - new-page
 - type: directory
-  path: exampleSite/content/french/pages
-  label: Created Pages (fr)
+  path: exampleSite/content/french/features
+  label: Features (fr)
   create: all
   match: "**/*"
   templates:

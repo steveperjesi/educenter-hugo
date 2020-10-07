@@ -1,102 +1,146 @@
----
+################################# Slider #####################################
 slider:
-  enable: true
-  bg_image: images/banner/banner-1.jpg
+  enable : true
+  bg_image : "images/banner/protectall-full-nav-bg.jpg"
   slider_item:
-  - title: Your insurance adjusting needs in one place
-    content: Organize claims, files, and more.
-    animation_in: left
-    animation_out: right
-    button:
-      enable: true
-      label: Learn More
-      link: contact
-  - title: Your insurance adjusting needs in one place
-    content: Quickly find contractors and consultants for any area in the U.S.
-    animation_in: left
-    animation_out: right
-    button:
-      enable: true
-      label: Apply now
-      link: contact
-  - title: Your insurance adjusting needs in one place
-    content: Receive notices before licenses expire, bonds lapse, policies mature,
-      and more.
-    animation_in: left
-    animation_out: right
-    button:
-      enable: true
-      label: Apply now
-      link: contact
-banner_feature:
-  enable: false
-  image: images/banner/banner-feature.png
-  feature_item:
-  - name: Scholorship News
-    icon: ti-book
-    content: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-      tempor incididunt ut labore  dolore magna aliqua. Ut enim ad
-  - name: Our Notice Board
-    icon: ti-blackboard
-    content: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-      tempor incididunt ut labore  dolore magna aliqua. Ut enim ad
-  - name: Our Achievements
-    icon: ti-agenda
-    content: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-      tempor incididunt ut labore  dolore magna aliqua. Ut enim ad
-  - name: Admission Now
-    icon: ti-write
-    content: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-      tempor incididunt ut labore  dolore magna aliqua. Ut enim ad
-about:
-  enable: false
-  title: About Educenter
-  image: images/about/about-us.jpg
-  content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
-    nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
-    fugiat  pariatur. Excepteur sint occaecat\n\ncupidatat non proident, sunt in culpa
-    qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis
-    iste natus error sit voluptatem "
-  button:
-    enable: true
-    label: Learn more
-    link: about
-course:
-  enable: false
-  title: Our Course
-cta:
-  enable: true
-  subtitle: Click to Join the Advance Workshop
-  title: Training In Advannce Networking
-  button:
-    enable: true
-    label: join now
-    link: contact
-success_story:
-  enable: true
-  bg_image: images/backgrounds/success-story.jpg
-  title: Success Stories
-  content: |-
-    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat pariatur. Excepteur sint occaecat.
+    # slider item loop
+    - title : "Your insurance adjusting needs in one place"
+      content : "Organize claims, files, and more."
+      animation_in : "left"
+      animation_out : "right"
+      # available animation : left, right, up, down
+      button:
+        enable : true
+        label : "Learn More"
+        link : "about"
 
-    ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
-  video_link: https://www.youtube.com/watch?v=ResipmZmpDU
+    # slider item loop
+    - title : "Your insurance adjusting needs in one place"
+      content : "Quickly find contactors and consultants for any area in the U.S."
+      animation_in : "left"
+      animation_out : "right"
+      # available animation : left, right, up, down
+      button:
+        enable : true
+        label : "Learn More"
+        link : "about"
+
+    # slider item loop
+    - title : "Your insurance adjusting needs in one place"
+      content : "Receive notices before licenses expire, bonds lapse, policies mature, and more"
+      animation_in : "left"
+      animation_out : "right"
+      # available animation : left, right, up, down
+      button:
+        enable : true
+        label : "Learn More"
+        link : "about"
+
+
+############################### Banner feature ###############################
+banner_feature:
+  enable : true
+  image : "images/banner/banner-side.jpg"
+  feature_item:
+    # feature item loop
+    - name : "Why Us"
+      icon : "ti-book" # icon pack : https://themify.me/themify-icons
+      content : "No where else will you find all of these features in one place!"
+
+    # feature item loop
+    - name : "Do More with Less"
+      icon : "ti-blackboard" # icon pack : https://themify.me/themify-icons
+      content : "Utilize all of our tools whether at your desk or in the field"
+
+    # feature item loop
+    - name : "Order Aerial Imagery"
+      icon : "ti-agenda" # icon pack : https://themify.me/themify-icons
+      content : "Order EagleView reports and drone flyovers at the click of a button."
+
+    # feature item loop
+    - name : "File Sharing"
+      icon : "ti-write" # icon pack : https://themify.me/themify-icons
+      content : "Backed by AWS, securely store and share files."
+
+
+############################## about ##################################
+about:
+  enable : true
+  title : "Learn More"
+  image : "images/about/video-placeholder.png"
+  content : "The insurance adjuster world can be overwhelming and chaotic. Imagine being able to finish claims and reports quickly and easily from any device!
+
+Receive Alert Notices before Licenses Expire. Quickly Search for Business, Professional & Personal Service Providers. Historical, Current & Forecasted Weather. On the go, at your desk, work from anywhere"
+  button:
+    enable : true
+    label : "See Features"
+    link : "features"
+
+
+############################# Course ################################
+course:
+  enable : true
+  title : "What's Inside"
+  # course item comes from "content/**/course" folder.
+
+########################## Call to action ############################
+cta:
+  enable : true
+  subtitle : "Click to Join Adjuster Services"
+  title : "Developed for adjusters by adjusters."
+  button:
+    enable : true
+    label : "join now"
+    link : "contact"
+
+
+######################## Success story #############################
+success_story:
+  enable : true
+  bg_image : "images/backgrounds/success-story.jpg"
+  title : "Success Stories"
+  content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat pariatur. Excepteur sint occaecat.
+            
+            
+  ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
+  dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris"
+  # video link
+  video_link : "https://www.youtube.com/watch?v=ResipmZmpDU"
+
+
+############################# event ################################
 event:
-  enable: false
-  title: Upcoming Events
+  enable : true
+  title : "Upcoming Events"
+  # event item comes from "content/**/event" folder.
+
+  
+########################### funfacts ############################
 funfacts:
-  enable: false
+  enable : true
   funfact_item:
-  - name: TEACHERS
-    count: "60"
-  - name: COURSES
-    count: "50"
-  - name: STUDENTS
-    count: "1000"
-  - name: SATISFIED CLIENT
-    count: "1400"
+    # funfact item loop
+    - name : "TEACHERS"
+      count : "60"
+
+    # funfact item loop
+    - name : "COURSES"
+      count : "50"
+
+    # funfact item loop
+    - name : "STUDENTS"
+      count : "1000"
+
+    # funfact item loop
+    - name : "SATISFIED CLIENT"
+      count : "1400"
+
+# funfact is for about page
+
+
+
+############################# blog ################################
 blog:
-  enable: false
-  title: Latest News
+  enable : true
+  title : "Latest News"
+  # blog item comes from "content/**/blog" folder.
